@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;600&family=Pattaya&display=swap');
+
+body{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #525252;
+}
+
+ul, ol{
+    line-height: 140%;
+    margin: 0 20px;
+}
+
+ul{
+    list-style: disc;
+}
+
+hr{
+    width: 50%;
+    background-color: rgba(255, 141, 47, 0.34);
+    height: 2px;
+    border: 0 none;
+}
+
+h2{
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(255, 141, 47);
+}
+
+i svg{
+    fill: rgb(255, 141, 47);
+}
+
+.center{
+    justify-content: center;
+    align-items: center;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.justify-between{
+    justify-content: space-between;
+}
+
+.gap8{
+    gap: 8px;
+}
+
+.gap16{
+    gap: 16px;
+}
+
+.general-margin{
+    margin: 40px 180px;
+}
+
+.hero{
+    height: 100vh;
+    background-image: url(images/apple-pie.jpg);
+    color: white;
+    gap: 80px;
+}
+.hero h1{
+    font-family: 'Pattaya', sans-serif;
+    font-size: 100px;
+}
+.hero p{
+    font-size: 24px;
+}
+.title{
+    font-size: 24px;
+}
+
+.listicon{
+    margin: 40px;
+    gap: 20px;
+    color: rgb(255, 141, 47);
+}
+.label{
+    font-weight: 600;
+    font-size: 14px;
+}
+.content{
+    font-weight: 300;
+}
+
+.iconbig{
+    height: 32px;
+}
+
+
